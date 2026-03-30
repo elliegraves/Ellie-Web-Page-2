@@ -1,9 +1,18 @@
 body {
   font-family: sans-serif;
-  background-color: #f0f0f0;
+  background-color: #0b75a6;
 }
 
-h1 {
-  color: navy;
+.announcement-bar {
+  background-color: #1a1a1a;
+  color: white;
   text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+.nav-bar {
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  letter-spacing: 6px;
 }
