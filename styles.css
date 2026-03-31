@@ -4,6 +4,11 @@ body {
 }
 
 .announcement-bar {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 30px;
   background-color: #1a1a1a;
   color: white;
   text-align: center;
@@ -12,7 +17,7 @@ body {
 }
 .nav-bar {
   position: absolute;
-  top: 45px;
+  top: 60px;
   left: 0;
   width: 100%;
   height: 80px;
@@ -96,4 +101,175 @@ body {
   left: 930px;
   font-size: 14px;
   letter-spacing: 2px;
+}
+.how-it-works {
+  position: absolute;
+  top: 760px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+}
+
+.browse-box {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  width: 300px;
+  height: 200px;
+  background-image: url('dress2.jpg');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+}
+
+.browse-title {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size: 22px;
+  letter-spacing: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+}
+
+.browse-text {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  font-size: 14px;
+  width: 240px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+}
+
+.rent-box {
+  position: absolute;
+  top: 40px;
+  left: 500px;
+  width: 300px;
+  height: 200px;
+  background-image: url('dress.jpg');
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.rent-title {
+  position: absolute;
+  top: 30px;
+  left: 115px;
+  font-size: 22px;
+  letter-spacing: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+}
+
+.rent-text {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  font-size: 14px;
+  width: 240px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+}
+
+.return-box {
+  position: absolute;
+  top: 40px;
+  left: 900px;
+  width: 300px;
+  height: 200px;
+  background-image: url('dress3.jpg');
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.return-title {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size: 22px;
+  letter-spacing: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+}
+
+.return-text {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  font-size: 14px;
+  width: 240px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+}
+.footer {
+  position: absolute;
+  top: 1080px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #1a1a1a;
+}
+
+.footer-name {
+  position: absolute;
+  top: 30px;
+  left: 600px;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 6px;
+}
+
+.footer-phone {
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-email {
+  position: absolute;
+  top: 80px;
+  left: 550px;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-address {
+  position: absolute;
+  top: 80px;
+  left: 900px;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-copyright {
+  position: absolute;
+  top: 150px;
+  left: 550px;
+  color: grey;
+  font-size: 12px;
+}
+.sign-in {
+  position: absolute;
+  top: 50px;
+  left: 1250px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.cart {
+  position: absolute;
+  top: 50px;
+  left: 1350px;
+  width: 24px;
+  height: 24px;
+  background-image: url('shoppingcarticon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
